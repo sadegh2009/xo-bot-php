@@ -22,9 +22,9 @@ you can do it in your browser with this code: Exmple:
 
 > https://example.com/mybot/XO_Game.php
 
-> https://api.telegram.org/bot<botToken>/setWebhook?url=Your https url to php file
+> https://api.telegram.org/bot botToken/setWebhook?url=Your https url to php file
 
-replace <botToken> with your token gutted from BotFather bot
+replace  botToken  with your token gutted from BotFather bot
 
 now your bot is ready
 
