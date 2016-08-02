@@ -1,24 +1,29 @@
 This is telegram XO game bot
+base on PHP
 
-base on php
+**How to setup:**
+-----------------
 
-How to setup:
-
-First use @BotFather to create new bot
+First use [@BotFather](https://telegram.me/BotFather) to create new bot
 
 after you create new bot in botfather you get a token for your bot
 
-enable inline mode with /setinline in botfather bot
+enable inline mode with 
 
-insert your token to XO_Game.php => define('BOT_TOKEN', 'Your Token Here');
+> /setinline
 
-now you need setwebhook for your bot
-for webhook you need https url
+ in botfather bot
 
-you can do it in your browser with this code:
-Exmple: https://example.com/mybot/XO_Game.php
-https://api.telegram.org/bot<botToken>/setWebhook?url=Your https url to php file
+insert your token to XO_Game.php => `define('BOT_TOKEN', 'Your Token Here');`
 
-replace <botToken> with your token geted from BotFather bot
+now you need setwebhook for your bot for webhook you need https url
+
+you can do it in your browser with this code: Exmple: 
+
+> https://example.com/mybot/XO_Game.php
+> https://api.telegram.org/bot/setWebhook?url=Your https url to php file
+
+replace with your token gutted from BotFather bot
 
 now your bot is ready
+
